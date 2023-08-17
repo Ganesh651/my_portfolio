@@ -1,0 +1,130 @@
+
+body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+}
+header {
+      background-color: #007bff;
+}
+.navbar {
+      padding: 1rem 0;
+}
+#projects {
+      background-color: #f8f9fa;
+}
+.card {
+      border: none;
+}
+
+.card-img-top {
+      max-height: 200px;
+      object-fit: cover;
+}
+
+
+#about {
+      background-color: #f8f9fa;
+}
+#contact {
+      background-color: #f8f9fa;
+}
+footer {
+      background-color: #343a40;
+      color: #fff;
+}
+.mb-4 {
+      margin-bottom: 1.5rem;
+}
+.py-5 {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+}
+.text-center {
+      text-align: center;
+}
+.lead {
+      font-size: 1.25rem;
+      font-weight: 300;
+}
+.btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+}
+
+.btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+}
+.btn-primary:focus {
+      box-shadow: none;
+}
+.text-white {
+      color: #fff !important;
+}
+#projects {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+}
+
+.card {
+      border: none;
+      transition: transform 0.2s;
+}
+.card:hover {
+      transform: translateY(-10px);
+}
+#about {
+      padding: 60px 0;
+}
+#contact {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+}
+
+.col-md-6 {
+      display: flex;
+      align-items: center;
+}
+
+footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 15px 0;
+}
+.github-logo{
+      height: 40px;
+      width: 40px;
+      margin: 5px;
+}
+.phone-button{
+      background-color: transparent;
+      border: none;
+}
+
+.header-animation {
+      animation: fadeInOut 5s infinite;
+}
+
+@keyframes fadeInOut {
+
+      0%,
+      100% {
+            opacity: 0;
+      }
+
+      20%,
+      80% {
+            opacity: 1;
+      }
+}
+
+@media screen and (max-width: 796px) {
+      .designation {
+            font-size: 16px;
+      }
+      
+}
+#nav{
+      padding: 16px 12px;
+}
