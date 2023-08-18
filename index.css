@@ -136,8 +136,9 @@ footer {
 }
 .list-item{
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
+
 }
 .my-photo{
       height: 120px;
