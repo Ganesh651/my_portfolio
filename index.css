@@ -16,10 +16,20 @@ header {
 .card {
       border: none;
 }
+.card-title{
+      font-size: 20px;
+      font-weight: 600;
+}
 
 .card-img-top {
       max-height: 200px;
       object-fit: cover;
+}
+.title-demo-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
 }
 
 
