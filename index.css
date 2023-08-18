@@ -128,3 +128,24 @@ footer {
 #nav{
       padding: 16px 12px;
 }
+.logo{
+      height: 40px;
+      width: 40px;
+      margin-bottom: 10px;
+      cursor: pointer;
+}
+.list-item{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.my-photo{
+      height: 120px;
+      width: 120px;
+      border-radius: 70px;
+      align-self: flex-end;
+}
+.about-card{
+      display: flex;
+      
+}
